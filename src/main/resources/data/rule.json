@@ -1,0 +1,14 @@
+[
+  {
+    "ruleId" : "Rule-1",
+    "signal" : "ATL2",
+    "conditions" : [
+      {
+        "conditionId" : "Condition-1",
+        "datatype" : "String",
+        "operator" : "equals",
+        "value" : "LOW"
+      }
+    ]
+  }
+]
