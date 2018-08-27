@@ -10,5 +10,29 @@
         "value" : "LOW"
       }
     ]
+  },
+  {
+    "ruleId" : "Rule-2",
+    "signal" : "ATL1",
+    "conditions" : [
+      {
+        "conditionId" : "Condition-1",
+        "datatype" : "Integer",
+        "operator" : "less than",
+        "value" : "2.08"
+      }
+    ]
+  },
+  {
+    "ruleId" : "Rule-3",
+    "signal" : "ATL3",
+    "conditions" : [
+      {
+        "conditionId" : "Condition-1",
+        "datatype" : "Datetime",
+        "operator" : "greater than",
+        "value" : "2018-08-27 00:00:00"
+      }
+    ]
   }
 ]

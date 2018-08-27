@@ -32,10 +32,6 @@ public class RuleEngine {
         JSONParser parser = new JSONParser();
         try
         {
-            //JSONObject jsonObject = (JSONObject)parser.parse(new FileReader("resources/"));
-
-            //Reading the array
-            //JSONArray countries = (JSONArray)jsonObject.get("Countries");
             ClassLoader classLoader = getClass().getClassLoader();
             File file = new File(classLoader.getResource("data/rule.json").getFile());
             JSONArray rulesJson = (JSONArray)parser.parse(new FileReader(file));

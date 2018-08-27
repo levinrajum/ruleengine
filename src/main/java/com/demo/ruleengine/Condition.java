@@ -59,8 +59,8 @@ public class Condition {
     }
 
     private boolean evaluateNumericCondition(Signal signal) {
-        int conditionValue = Integer.parseInt(value);
-        int signalValue = Integer.parseInt(value);
+        double conditionValue = Double.parseDouble(value);
+        double signalValue = Double.parseDouble(signal.getValue());
         switch(operator) {
             case "equals":
                 return conditionValue == signalValue;
